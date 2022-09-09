@@ -40,6 +40,11 @@ nav a:hover {
 
 main {
     background: #fafafa;
+    width: 100%;
+}
+
+.imagem-principal {
+    width: 100%;
 }
 
 .produtos {
@@ -51,8 +56,11 @@ main {
 .produtos li {
     display: inline-block;
     text-align: center;
-    width: 32%;
+    width: 28%;
+    margin: 0 1.5%;
     vertical-align: top;
+
+    font-size: 18px;
 }
 
 .produtos li:hover {
@@ -60,17 +68,19 @@ main {
 }
 
 .produtos img {
-    width: 200px;
-    height: 200px;
+    max-width: 90%;
 
     border-bottom: 2px solid lightgray;
     margin: 20px 0 20px 0;
 }
 
 .produtos h2 {
+    
     margin: 0 0 3px 0;
 }
 
 .preco {
-    font-style: bold;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 20px 0;
 }
